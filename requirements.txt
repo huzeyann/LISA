@@ -12,7 +12,7 @@ ray
 Requests
 shortuuid
 tqdm
-transformers==4.31.0
+transformers
 uvicorn
 scipy
 bitsandbytes
