@@ -7,8 +7,8 @@ import torch
 import torch.nn.functional as F
 from transformers import CLIPImageProcessor
 
-from model.llava import conversation as conversation_lib
-from model.segment_anything.utils.transforms import ResizeLongestSide
+from lisa.model.llava import conversation as conversation_lib
+from lisa.model.segment_anything.utils.transforms import ResizeLongestSide
 
 from .utils import DEFAULT_IMAGE_TOKEN
 

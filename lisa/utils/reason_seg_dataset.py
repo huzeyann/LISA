@@ -9,8 +9,8 @@ import torch
 import torch.nn.functional as F
 from transformers import CLIPImageProcessor
 
-from model.llava import conversation as conversation_lib
-from model.segment_anything.utils.transforms import ResizeLongestSide
+from lisa.model.llava import conversation as conversation_lib
+from lisa.model.segment_anything.utils.transforms import ResizeLongestSide
 
 from .data_processing import get_mask_from_json
 from .utils import (ANSWER_LIST, DEFAULT_IMAGE_TOKEN,

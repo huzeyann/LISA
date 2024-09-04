@@ -11,8 +11,8 @@ import transformers
 from peft import LoraConfig, get_peft_model
 from transformers import AutoTokenizer
 
-from model.LISA import LISAForCausalLM
-from utils.utils import DEFAULT_IM_END_TOKEN, DEFAULT_IM_START_TOKEN
+from lisa.model.LISA import LISAForCausalLM
+from lisa.utils.utils import DEFAULT_IM_END_TOKEN, DEFAULT_IM_START_TOKEN
 
 
 def parse_args(args):

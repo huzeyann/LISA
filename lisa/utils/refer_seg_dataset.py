@@ -8,8 +8,8 @@ import torch.nn.functional as F
 from pycocotools import mask
 from transformers import CLIPImageProcessor
 
-from model.llava import conversation as conversation_lib
-from model.segment_anything.utils.transforms import ResizeLongestSide
+from lisa.model.llava import conversation as conversation_lib
+from lisa.model.segment_anything.utils.transforms import ResizeLongestSide
 
 from .grefer import G_REFER
 from .refer import REFER
